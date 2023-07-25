@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 64px 0 64px 0;
+  background-color: var(--violet);
+}
+
+@media (max-width: 620px) {
+  .root {
+    padding: 40px 0;
+  }
+}

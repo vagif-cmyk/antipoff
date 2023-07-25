@@ -1,0 +1,41 @@
+.label {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.last {
+  margin-bottom: 24px;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  color: var(--gray);
+  background-color: var(--gray_light);
+}
+
+
+
+@media (max-width: 600px) {
+  .input {
+    padding: 10px;
+  }
+
+  .eye {
+    top: 7px;
+  }
+}

@@ -1,0 +1,27 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+:root {
+  --black: #151317;
+  --white: rgba(255, 255, 255, 1);
+  --red: #FF6161;
+  --violet: #512689;
+  --gray: #808185;
+  --gray_light: #F8F8F8;
+}
+
+.container {
+  position: relative;
+  max-width: 1275px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
